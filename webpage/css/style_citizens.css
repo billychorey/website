@@ -1,0 +1,424 @@
+body{
+	background-color: #ddeaf0;
+	display: block;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#wrapper {
+    	width: 770px;
+    	margin: 0 auto;
+}
+
+.maincontent{
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 15px;
+	height: 800px;
+}
+
+#topnav{
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-color: #d7dfe1;
+	
+	background: #eef0ef; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eef0ef 0%, #a4abae 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eef0ef), color-stop(100%,#a4abae)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eef0ef 0%,#a4abae 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eef0ef 0%,#a4abae 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eef0ef 0%,#a4abae 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eef0ef 0%,#a4abae 100%); /* W3C */
+}
+
+#topnav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+#topnav li{
+	display: inline-block;
+}
+
+#topnav a{
+	display: block;
+	text-decoration: none;
+	color: #0a3d61;
+	font-weight: bold;
+	padding: 20px 25px;
+}
+
+#homeimage{
+	margin:0px 0px 10px 20px;
+	float:left;
+	border-radius: 5px 0px 0px;
+}
+
+#topboxtext{
+	width: 420px;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	background-color: #669696;
+	padding: 20px 13px 13px 27px;
+	border-radius:5px 0px 0px 5px;
+	color: white;
+	font-size: .9em;
+	font-family: helvetica, sans-serif;
+
+}
+
+#dedicatedp{
+	margin: 5px 5px 40px 5px;
+}
+
+#readmore{
+	background-color:#3d6d6d;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+	text-align:center;
+	height:35px;
+	width: 105px;
+	float:right;
+	line-height:2;
+	
+	padding:10px;
+	margin-right:0px;
+	
+	margin-left: 0px;
+}
+#ourcommunity{
+	display: inline-block;
+	font-size: 1.5em;
+
+}
+#homepageheadlines{
+	font-size: 1em;
+	font-family: helvetica, sans-serif;
+	/*font-weight: bold;*/
+	color: #3b5963;
+}
+
+#communitytext{
+	font-size:.9em;
+	font-family: helvetica, sans-serif;
+	color: #7c7c7c;
+
+}
+
+#headlinebox{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	width:  355px;
+	height: 300px;
+	display:inline-block;
+	float:left;
+	margin-right: 38px;
+}
+#latestheadlines{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: helvetica, sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	color: #3b5963;
+}
+
+.titles{
+	font-family: helvetica, sans-serif;
+	font-size: .9em;
+	font-weight: bold;
+	color: #3b5963;
+	margin-left: 5px;
+}
+
+#headlinetext{
+	font-size:.8em;
+	font-family: helvetica, sans-serif;
+	color: #7c7c7c;
+	margin-left:5px;
+}
+
+#youngsters{
+	float:left;
+	display: inline-block;
+	width:40%
+
+}
+
+/*#footer{
+	display: inline-block;
+}
+
+#links{
+
+	float: left;
+	display:inline-block;
+}
+#footerlinks{
+	display: inline-block;
+	text-decoration:none;
+	font-family: helvetica, sans-serif;
+	font-style: bold;
+	font-size: .7em;
+	margin:0, auto;
+	color: #0c4369;
+
+}
+*/
+
+#bottomnavul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	text-align: center;
+
+}
+
+#bottomnavid{
+	display: inline-block;
+	margin: 5px;
+
+}
+
+#bottombutton{
+	text-decoration:none;
+	font-family: helvetica, sans-serif;
+	font-style: bold;
+	font-size: .75em;
+	margin:0, auto;
+	color: #0c4369;
+}
+
+
+
+
+#contactusbox{
+	width: 65%;
+	height: 160px;
+	background-color: #699797;
+	border-radius: 5px 0px 0px 5px;
+	float: left;
+	display:inline-block;
+}
+
+
+#contactimage{
+	border-radius: 0px 5px 5px 0px;
+	width: 35%;
+	height: 160px;
+	float: left;
+	display: block;
+}
+
+/*#photo{
+	width: 100%;
+}*/
+
+#contacthead{
+	font-size: 1em;
+	font-family: helvetica, sans-serif;
+	/*font-weight: bold;*/
+	color: #3b5963;
+}
+
+#contact_us_form{
+
+	margin-top: 10px;
+	
+	clear: both;
+}
+
+
+#contact_us_form label{
+	display: inline-block;
+	width: 20%;
+}
+
+#contact_us_form input {
+	display: inline-block;
+	width: 20%;
+}
+
+#submit{
+	background-color: #b0b0b0;
+	display: inline-block;
+	font-family: helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    width:15%;
+    box-shadow: 0 2px 2px rgba(0,0,0,1);
+    -moz-border-radius: 5px;
+    text-align: center;
+    margin-left: 300px;
+
+}
+
+#internal_top_image{
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: block;
+	width: 100%;
+
+}
+
+#newshead{
+	font-size: .8em;
+	font-family: helvetica, sans-serif;
+	/*font-weight: bold;*/
+	color: #3b5963;
+}
+
+.faircontainer{
+	overflow: auto;
+}
+
+#blueribbon{
+	float: right;
+
+}
+
+#bluethumb{
+	display: inline-block;
+}
+
+
+.fairtext p{
+
+	
+
+	
+}
+
+.fairtext blockquote{
+	text-align: center;
+	color: #ddeaf0;
+}
+
+#internalmaincontent{
+	height: 1500px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.info_center{
+	background-color: #679797;
+	border-radius: 5px;
+}
+.info_center h1{
+	font-family:helvetica, sans-serif;
+	color: #053c62;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.info_center p{
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.climate{
+	float:left;
+	width: 50%;
+}
+
+.climate h2{
+	font-family:helvetica, sans-serif;
+	color: #053c62;
+	margin-bottom: 20px;
+	
+
+
+}
+
+.climate th{
+	background-color: #0c9797;
+	color: white;
+	width: 33%;
+}
+
+#light_green{
+	background-color: #ddeaf0;
+}
+
+.facilities{
+	
+	width: 50%;
+	display: inline-block;
+	background-color: #e0efe7;
+
+}
+
+.facilities h2{
+	font-family:helvetica, sans-serif;
+	color: #053c62;
+	margin-bottom: 20px;
+
+
+}
+
+.headlines{
+	background-color: #f1f1f1;
+	float:left;
+	width: 50%;
+}
+
+.headlines h2{
+	font-family:helvetica, sans-serif;
+	color: #053c62;
+	margin-bottom: 20px;
+}
+.headlines ul{
+	list-style: none;
+}
+
+.headlines a{
+	text-decoration: none;
+	color: #145482;
+}
+
+.headlines h3{
+	color: #7397b2;
+	font-weight: bold;
+	font-family: helvetica, sans-serif;
+	list-style: none;
+}
+
+.headlines p{
+	font-family: helvetica, sans-serif;
+	color: #000000;
+	margin:0px; 
+}
+
+.meetings h2{
+	font-family:helvetica, sans-serif;
+	color: #053c62;
+	margin-bottom: 20px;
+
+}
+
+.meetings th{
+	background-color: #679797;
+	color: white;
+	font-family: helvetica, sans-serif;
+}
+
+.meetings tr{
+	background-color: #ddeaf0;
+}
+
+#nogreen{
+	background-color: white;
+}
+
+
+
+
+
+
+
+
