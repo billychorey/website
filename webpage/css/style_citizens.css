@@ -16,7 +16,7 @@ body{
 	height: 800px;
 }
 
-#topnav{
+.topnav{
 	margin-bottom: 10px;
 	border-radius: 5px;
 	border-color: #d7dfe1;
@@ -30,18 +30,18 @@ body{
 	background: linear-gradient(to bottom,  #eef0ef 0%,#a4abae 100%); /* W3C */
 }
 
-#topnav ul{
+.topnav ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
 }
 
-#topnav li{
+.topnav li{
 	display: inline-block;
 }
 
-#topnav a{
+.topnav a{
 	display: block;
 	text-decoration: none;
 	color: #0a3d61;
@@ -52,7 +52,7 @@ body{
 #homeimage{
 	margin:0px 0px 10px 20px;
 	float:left;
-	border-radius: 5px 0px 0px;
+	border-radius: 5px 0px 0px 5px;
 }
 
 #topboxtext{
@@ -61,7 +61,7 @@ body{
 	margin: 0px 0px 0px 0px;
 	background-color: #669696;
 	padding: 20px 13px 13px 27px;
-	border-radius:5px 0px 0px 5px;
+	border-radius:0px 5px 5px 0px;
 	color: white;
 	font-size: .9em;
 	font-family: helvetica, sans-serif;
@@ -293,6 +293,8 @@ body{
 	
 }
 
+
+
 .fairtext blockquote{
 	text-align: center;
 	color: #ddeaf0;
@@ -304,7 +306,12 @@ body{
 	border-radius: 5px;
 	padding: 15px;
 }
-
+.info_maincontent{
+	height: 1200px;
+	background-color: white;
+	border-radius: 5px;
+	padding: 15px;
+}
 .info_center{
 	background-color: #679797;
 	border-radius: 5px;
